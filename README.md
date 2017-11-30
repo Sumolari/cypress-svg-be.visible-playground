@@ -1,0 +1,1 @@
+Just a demo to show how Cypress 1.1.2 with Electron fails to check visibility of a path inside an SVG and a temporal workaround.

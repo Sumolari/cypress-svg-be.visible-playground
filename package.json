@@ -1,0 +1,20 @@
+{
+  "name": "getclientrects-error",
+  "version": "1.0.0",
+  "description": "A sample demo to show getClientRects error with Electron and Cypress 1.1.2",
+  "main": "index.js",
+  "scripts": {
+    "server": "node index.js",
+    "cypress-open": "cypress open",
+    "test": "yarn run test-electron && yarn run test-chromium && yarn run test-chrome",
+    "test-electron": "cypress run --browser electron --reporter spec",
+    "test-chromium": "cypress run --browser chromium --reporter spec",
+    "test-chrome": "cypress run --browser chrome --reporter spec"
+  },
+  "author": "Lluís Ulzurrun de Asanza i Sàez",
+  "license": "MIT",
+  "dependencies": {
+    "cypress": "^1.1.2",
+    "express": "^4.16.2"
+  }
+}
